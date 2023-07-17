@@ -30,10 +30,10 @@
     <!-- ios -->
     <platform name="ios">
         <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
-          <string>This app needs microphone access to dictate patient's report and uploading audio</string>
+          <string>This app needs microphone access to dictate patient's report and uploading audio, audio dictation will be recorded and uploaded to the server for further processing.</string>
         </config-file>
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-          <string>This app needs camera access for capturing and uploading images</string>
+          <string>This app needs camera access for capturing and uploading images, captured images will be uploaded to the server and will be attached with the dictated audio file as a reference.</string>
         </config-file> 
     </platform>
     
